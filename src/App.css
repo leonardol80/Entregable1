@@ -35,6 +35,12 @@
   padding: 10px;
 }
 
+.img_quote{
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+}
+
 .card__author{
   display: flex;
   justify-content: end;
