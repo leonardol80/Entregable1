@@ -1,0 +1,56 @@
+:root {
+--color_fondo_tarjeta: #FEFBF6;
+--color_boton_tarjeta: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: var(--color_fondo_tarjeta);
+  border-radius: 5px;
+  width: 350px;
+}
+.card__img {
+  width: 100%;
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.card__quote{
+  margin-bottom: 2em;
+  padding: 10px;
+}
+
+.card__author{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.card__btn {
+  color: var(--color_boton_tarjeta);
+  border: 0;
+  width: 40px;
+  aspect-ratio: 1;
+  font-size: 2em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.alling_button{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
