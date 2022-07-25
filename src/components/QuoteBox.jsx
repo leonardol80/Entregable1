@@ -16,7 +16,7 @@ const QuoteBox = ({randomQuoter, randomColors, getRandomAll}) => {
         <div className='img_quote'>
             <i className="fa-solid fa-quote-left quotes-icon"></i>
         </div>
-        <p id='p' className='card__quote'>{`${randomQuoter.quote} ${randomQuoter.quote.first} ${randomQuoter.quote.last}`}</p>
+        <p id='p' className='card__quote'>{`${randomQuoter.quote}`}</p>
       </div>
       <p className='card__author'>{randomQuoter.author}</p>
       <div className='alling_button'>
